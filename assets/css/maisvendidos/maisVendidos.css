@@ -1,0 +1,33 @@
+.maisvendidos__titulo {
+    background-color: var(--branco);
+    color: var(--cor-do-titulo);
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase; 
+    padding: 1em 0 0.5em 0;
+}
+
+
+.estrelas {
+    display: flex;
+}
+
+.descrição-autora {
+    display: flex;
+}
+
+
+@media screen and (min-width: 1728px) {
+    .banner__pesquisa {
+        width: 35%;
+    }
+
+    .banner__pesquisa::placeholder {
+        background-position: 10em;
+    }
+
+    .banner {
+        padding: 6em 0;
+    }
+}
